@@ -13,6 +13,7 @@ It aims to reproduce key results of the original CLIP paper:
 - Visual interpretability (t-SNE and attention heatmaps)
 
 ## Project Structure
+```bash
 mini-clip/
 │
 ├── README.md
@@ -29,13 +30,13 @@ mini-clip/
 ├── clip_best.pt
 │
 └── main.pdf # Annotated research report
-
+```
 
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/<yourusername>/mini-clip.git
+git clone https://github.com/kadhiravang/Mini-CLIP.git
 cd mini-clip
 ```
 ### 2️⃣ Create and activate a virtual environment
@@ -65,3 +66,7 @@ Upon changing these values, run the following:
 ```bash
 py inference.py
 ```
+
+
+### the model i have trained can be downloaded here:
+https://drive.google.com/file/d/1pJRMegRn4Qcmw07l4uNQvE19HPqDWmg8/view?usp=sharing
